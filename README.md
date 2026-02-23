@@ -44,3 +44,23 @@ host-panel-bot/
 │   └── conftest.py
 └── docs/                       # API docs
     └── api.md
+
+
+
+
+# 🚀 Host Panel Bot
+
+Telegram bot for managing hosting panels (cPanel, DirectAdmin, WHMCS).
+
+## ✨ Features
+- ✅ Server monitoring (CPU/RAM/Disk)
+- ✅ Service restarts
+- ✅ Backup management
+- ✅ User/database management
+- ✅ Real-time alerts
+
+## 🛠️ Quick Start
+```bash
+cp .env.example .env
+docker-compose up -d
+python src/main.py
